@@ -655,7 +655,7 @@ Please ensure your boards meet these minimum design rule requirements.</descript
 </element>
 <element name="Q1" library="transistors" package="SOT-23" value="2N7002" x="13.335" y="26.924" smashed="yes" rot="R90">
 <attribute name="NAME" x="13.716" y="28.829" size="0.8128" layer="21" font="vector" ratio="12" rot="R90"/>
-<attribute name="VALUE" x="15.748" y="28.956" size="1.016" layer="21" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="15.748" y="28.956" size="1.016" layer="27" ratio="12" rot="R90"/>
 </element>
 <element name="R3" library="SparkFun-Passives" package="0603-RES" value="10k" x="10.541" y="27.813" smashed="yes" rot="R90">
 <attribute name="NAME" x="9.271" y="26.924" size="0.8128" layer="25" font="vector" rot="R90"/>

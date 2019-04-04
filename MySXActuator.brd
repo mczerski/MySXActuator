@@ -718,7 +718,7 @@ Please ensure your boards meet these minimum design rule requirements.</descript
 <attribute name="MPN" value="" x="3.175" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="3.175" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="3.175" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="6.858" y="2.286" size="0.8128" layer="25" font="vector" ratio="10" rot="R270"/>
+<attribute name="NAME" x="7.366" y="2.286" size="0.8128" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="-1.524" y="25.4" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="Q2" library="transistor-power" package="TO220BV" value="IRF530" x="11.557" y="24.765" smashed="yes">
@@ -775,7 +775,7 @@ Please ensure your boards meet these minimum design rule requirements.</descript
 </element>
 <element name="Q4" library="transistors" package="SOT-23" value="2N7002" x="11.049" y="12.954" smashed="yes" rot="R180">
 <attribute name="NAME" x="9.525" y="13.335" size="0.8128" layer="21" font="vector" ratio="12" rot="R180"/>
-<attribute name="VALUE" x="9.017" y="15.367" size="1.016" layer="21" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="9.017" y="15.367" size="1.016" layer="51" ratio="12" rot="R180"/>
 </element>
 <element name="R8" library="SparkFun-Passives" package="0603-RES" value="10k" x="15.24" y="10.033" smashed="yes">
 <attribute name="NAME" x="15.113" y="10.795" size="0.8128" layer="25" font="vector"/>

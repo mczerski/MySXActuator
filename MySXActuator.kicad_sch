@@ -4334,6 +4334,16 @@
 	)
 	(wire
 		(pts
+			(xy 112.395 108.585) (xy 112.395 107.315)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "09fbe6ea-8c13-491f-85e8-28bf9ac00d74")
+	)
+	(wire
+		(pts
 			(xy 73.025 132.715) (xy 81.28 132.715)
 		)
 		(stroke
@@ -4354,7 +4364,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 97.155) (xy 105.41 97.79)
+			(xy 105.41 95.885) (xy 105.41 97.79)
 		)
 		(stroke
 			(width 0.1524)
@@ -4474,6 +4484,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.325 107.315) (xy 67.31 107.315)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "157a2e5c-90d0-49a9-9972-324ca76fc320")
+	)
+	(wire
+		(pts
 			(xy 60.325 122.555) (xy 60.325 132.715)
 		)
 		(stroke
@@ -4481,6 +4501,16 @@
 			(type solid)
 		)
 		(uuid "1710de45-037c-495d-9a7f-c688893bdb93")
+	)
+	(wire
+		(pts
+			(xy 105.41 108.585) (xy 112.395 108.585)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "184f25bb-d4ea-4754-80a0-db9c00646e53")
 	)
 	(wire
 		(pts
@@ -4654,7 +4684,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.325 95.885) (xy 60.325 97.79)
+			(xy 60.325 93.98) (xy 60.325 97.79)
 		)
 		(stroke
 			(width 0.1524)
@@ -4991,6 +5021,16 @@
 			(type default)
 		)
 		(uuid "5fed6aa5-55b0-4b0a-a025-0d6730216719")
+	)
+	(wire
+		(pts
+			(xy 67.31 93.98) (xy 67.31 98.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61c4c938-97dd-4670-8659-805c99192227")
 	)
 	(wire
 		(pts
@@ -5624,16 +5664,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 97.155) (xy 105.41 97.155)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d64c6cdb-5109-4bab-93f5-3a1d7f833193")
-	)
-	(wire
-		(pts
 			(xy 198.12 105.41) (xy 205.105 105.41)
 		)
 		(stroke
@@ -5701,16 +5731,6 @@
 			(type solid)
 		)
 		(uuid "ddae1ca6-f2b6-49df-ab46-316d67d042e4")
-	)
-	(wire
-		(pts
-			(xy 62.865 95.885) (xy 60.325 95.885)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "de9077a0-994b-4964-b713-9638a259191c")
 	)
 	(wire
 		(pts
@@ -5841,6 +5861,26 @@
 			(type solid)
 		)
 		(uuid "fe58c789-5d21-4ed2-b6a4-4d403651de66")
+	)
+	(wire
+		(pts
+			(xy 112.395 95.885) (xy 112.395 99.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe9824cb-72d7-4e21-963f-4d41cd3a9969")
+	)
+	(wire
+		(pts
+			(xy 67.31 107.315) (xy 67.31 106.045)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ff78b79f-b44b-42b7-9c77-3024423378af")
 	)
 	(rectangle
 		(start 132.08 82.55)
@@ -6223,6 +6263,28 @@
 			)
 		)
 	)
+	(global_label "VIN"
+		(shape input)
+		(at 112.395 95.885 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "369d0893-d0c3-4fe8-af8c-3df5ce69dab3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.395 89.8759 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VRAW"
 		(shape input)
 		(at 56.515 55.245 0)
@@ -6269,7 +6331,7 @@
 	)
 	(global_label "VCCIO"
 		(shape input)
-		(at 107.95 97.155 0)
+		(at 105.41 95.885 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6279,7 +6341,7 @@
 		)
 		(uuid "4749dc68-e2d2-4a3f-86d3-d8c7e78433d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.4991 97.155 0)
+			(at 105.41 87.3359 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6324,6 +6386,28 @@
 		(uuid "54020367-14a2-424a-bee6-dd5758022120")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 57.785 86.3382 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VIN"
+		(shape input)
+		(at 67.31 93.98 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "55a9cf36-bff2-4a66-b190-87a7ad266ca4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.31 87.9709 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6445,7 +6529,7 @@
 	)
 	(global_label "VCCIO"
 		(shape input)
-		(at 62.865 95.885 0)
+		(at 60.325 93.98 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6455,7 +6539,7 @@
 		)
 		(uuid "6c87afb3-96a5-45a1-8308-98206331a1ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.4141 95.885 0)
+			(at 60.325 85.4309 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8913,6 +8997,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 112.395 103.505 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ad614b8-e6d6-4474-b327-6b1599700861")
+		(property "Reference" "R16"
+			(at 114.3 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22k"
+			(at 114.3 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 110.617 103.505 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 112.395 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 112.395 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d4c09530-23c2-487e-a0d9-358f9ded70ab")
+		)
+		(pin "1"
+			(uuid "58ae2b82-e06d-4efc-bde9-d6319043eba6")
+		)
+		(instances
+			(project "MySXActuator"
+				(path "/57392524-8f0a-44f4-94e8-a8a5959d46fa"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Polyfuse")
 		(at 205.105 41.91 90)
 		(unit 1)
@@ -10448,6 +10602,76 @@
 			(project "MySXActuator"
 				(path "/57392524-8f0a-44f4-94e8-a8a5959d46fa"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 67.31 102.235 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d048cd55-01b6-4d41-8fcc-eee6895613fb")
+		(property "Reference" "R15"
+			(at 69.215 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22k"
+			(at 69.215 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 65.532 102.235 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "602fd209-74f6-4a7a-bd52-bf6e1ab722b8")
+		)
+		(pin "1"
+			(uuid "d84f7a13-d7d1-4e6e-9087-cb93fd4822d7")
+		)
+		(instances
+			(project "MySXActuator"
+				(path "/57392524-8f0a-44f4-94e8-a8a5959d46fa"
+					(reference "R15")
 					(unit 1)
 				)
 			)
